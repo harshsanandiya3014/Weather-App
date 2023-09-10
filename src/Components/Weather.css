@@ -1,0 +1,46 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.main{
+    width: 300px;
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input input{
+    height: 20px;
+    width: 200px;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.location{
+    display: flex;
+}
+.location .icon{
+    font-size: 40px;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+.location h1{
+    text-transform: capitalize;
+}
+
+.temp{
+    font-size: 25px;
+}
+.minmax{
+    margin-top: 30px;
+}
